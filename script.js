@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'http://warm-citadel-89075.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'http://warm-citadel-89075.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://warm-citadel-89075.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://warm-citadel-89075.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
